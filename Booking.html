@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Service Center - Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Car Service Center</h1>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="ContactUs2.html" target="_blank">Contact Us</a></li>
+                <li><a href="AboutUS2.html" target="_blank">About Us</a></li>
+                <li><a href="Complaints2.html" target="_blank">Complaints</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Schedule a Service Appointment</h2>
+        <form id="bookingForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required><br>
+            <label for="vehicle">Vehicle Number:</label>
+            <input type="text" id="vehicle" name="vehicle" required><br>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required><br>
+            <input type="reset">
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <script src="booking.js"></script>
+</body>
+</html>
